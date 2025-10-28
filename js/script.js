@@ -12,11 +12,11 @@ fetch("./../DataBase.json").then(response => response.json()).then(data => {
         <p>${article.author}</p>
         <img src="${article.urlToImage}">
         </a>
-        `;
+        `
+        ;
         container.appendChild(noticia);
     }
 )
 const noticias = document.querySelector('#noticias');
 noticias.appendChild(container)
-}
-)
+})
