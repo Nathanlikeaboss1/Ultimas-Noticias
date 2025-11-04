@@ -1,4 +1,4 @@
-fetch("./../DataBase.json").then(response => response.json()).then(data => {
+fetch("./DataBase.json").then(response => response.json()).then(data => {
     // const noticiaUrl= 'https://exemplo.com/noticia2';
     // const artigo = data.articles.find((article) => article.url === noticiaUrl);
     // console.log(artigo);
